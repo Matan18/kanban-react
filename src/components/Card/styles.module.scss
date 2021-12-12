@@ -1,0 +1,35 @@
+.card {
+  background-color: #1a1a1c;
+  padding: 16px;
+  box-shadow: 0 2px 2px -1px #fd951fcc;
+  width: 250px;
+  margin: 25px 0;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.isDragging {
+  cursor: move;
+  opacity: 0.3;
+}
+
+.status {
+  width: 30px;
+  height: 8px;
+  background: gray;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.status.green {
+  background: #23d2ac;
+}
+
+.status.blue {
+  background: #33adff;
+}
+
+.status.red {
+  background: red;
+}
